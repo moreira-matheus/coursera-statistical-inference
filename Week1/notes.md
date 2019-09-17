@@ -232,3 +232,8 @@ Die roll: suppose that a die is rolled and $X$ is the number face up.
 
 > When the distribution of an estimator $\hat\theta$ is centered at the same point as the estimand $\theta$, that is, when $\textrm E[\hat\theta] = \theta$, the estimator is said to be <u>unbiased</u>. More [here](https://en.wikipedia.org/wiki/Bias_of_an_estimator).
 
+- The expected value is a linear function, so:
+  - $\textrm E [c \cdot X] = c\cdot \textrm E[X]$, where $c$ is a constant;
+  - $\textrm E [X + Y] = \textrm E[X] + \textrm E[Y]$;
+  - More generally, $\textrm E[a \cdot X + b \cdot Y] = a \cdot \textrm E[X] + b \cdot \textrm E[Y]$
+
