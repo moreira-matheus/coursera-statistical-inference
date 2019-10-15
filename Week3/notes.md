@@ -186,7 +186,7 @@ Consider our example again. Now, suppose that $n = 16$ (rather than $100$).
 - Under $H_0$, the probability that it is larger than the $95^{\textrm{th}}$ percentile of the $t$ distribution is $5\%$.
 - The $95^{\textrm{th}}$ of the $t$ distribution with $15 \textrm{ df}$ is $1.7531$ (obtained via `qt(.95, 15)`).
 - So that our test statistic is now $\displaystyle\frac{32 -30}{10/\sqrt{16}} = 0.8$.
-- Since $t_{\textrm{test}} = 0.8 < t_{0.95,\ 15 = 1.7531}$, we now fail to reject.
+- Since $t_{\textrm{test}} = 0.8 < t_{0.95,\ 15} = 1.7531$, we now fail to reject.
 
 **Discussion**:
 
